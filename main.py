@@ -43,6 +43,8 @@ def sendMsg(msg,botNumber,recNo):
     message = client.messages.create(body=msg ,from_= botNumber ,to=recNo)
     call = client.calls.create(to=recNo ,from_= botNumber, url="https://handler.twilio.com/twiml/EHb8a33d13e6e1b3d12bc9f955c3c378c7")
     print(message.sid)
+    print(message.cid)
+
     
 
 def action(student_name, recNo, recMail, attendace, internals):
