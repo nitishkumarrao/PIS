@@ -6,8 +6,8 @@ from twilio.rest import Client
 mydb = mysql.connector.connect(host="localhost", user="root", password="shivaraj06",database="shivaraj")
 smtp_server = "smtp.gmail.com"
 port = 587
-sender_email = "nitishkumardashing@gmail.com"
-email_password = 'nitish891@'
+sender_email = "your_mail"
+email_password = 'password'
 context = ssl.create_default_context()
 botNumber ='+16316023183'
 account_sid = 'ACa547e176f30e3f22342b8f998a5cf7bc'
