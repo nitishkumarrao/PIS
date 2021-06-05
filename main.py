@@ -9,9 +9,9 @@ port = 587
 sender_email = "your_mail"
 email_password = 'password'
 context = ssl.create_default_context()
-botNumber ='+16316023183'
-account_sid = 'ACa547e176f30e3f22342b8f998a5cf7bc'
-auth_token = '00ffb49b2d8827cf6dabbd26860e7d6e'
+botNumber ='twilio bot'
+account_sid = 'twilio accn sid'
+auth_token = 'twilio accn token'
 client = Client(account_sid, auth_token)
 
 def fetchData():
